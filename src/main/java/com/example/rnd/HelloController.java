@@ -4,9 +4,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
 public class HelloController {
-@RequestMapping("/")
-public String hello() {
- return "Hello world - re deploy";
- }
+
+    @RequestMapping("/")
+    public String hello() {
+        return "Hello world";
+    }
  
 }
